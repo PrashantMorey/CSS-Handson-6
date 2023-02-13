@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.image{
+    position: absolute;
+    top: 35px;
+}
+.image img{
+    width: 55px;
+    height: 55px;
+}
+.hero{
+    background-image: url(./desert-17484621920jpg.jpg);
+    background-repeat:repeat-y;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+
+}
+.header{
+    display: flex;
+    justify-content: end;
+}
+.inheader{
+    display: flex;
+}
+.text{
+    margin: 1.6rem;
+}
+.icon{
+    margin: 1.3rem 3rem;
+    
+}
+ion-icon{
+    background-color: rgba(202, 196, 196, 0.788);
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+}
+
+.main-body{
+    display: flex;
+}
+.sahara{
+    margin-top: 10%;
+    width: 70%;
+    height: 30vh;
+    margin-left: 7%;
+}
+.heading h1{
+    color: white;
+    font-size: 75px;
+}
+.insahara p{
+    color: white;
+    margin: 10px 0;
+}
+button{
+    margin-top: 20px;
+    padding: .8rem 3.5rem;
+    border-radius: 25px;
+    border: none;
+}
+
+.boxes{
+    display: flex;
+    flex-flow: wrap row;
+}
+
+.box{
+    border: none;
+    width: 14rem;
+    height: 15rem;
+    color: white;
+    border-radius: 12px;
+    font-size:x-small;
+    padding-top: 15px;
+    margin: 18px;
+    transition: .2s linear ;
+}
+.box h1{
+    margin-left: 20px;
+}
+.box p{
+    margin: 10px 0 15px 20px;
+}
+.box1{
+    background-image: url(./camel.jpg);
+    background-size: cover;
+}
+.box:hover{
+    transform: translateY(-15px);
+}
+.box2{
+    background-image: url(./sand-dune-arch.jpg);
+    background-size: cover;
+}
+.box3{
+    background-image: url(./pyrimid.jpg);
+    background-size: cover;
+}
+.box4{
+    background-image: url(./kalahari.jpg);
+    background-size: cover;
+}
+
+@media screen and (max-width:920px) {
+    .main-body{
+        display: block;
+    }
+    .sahara{
+        width: 90%;
+        margin-top: 1%;
+        height: 36vh;
+        margin-left: 10%;
+    }
+    .boxes{
+        display: flex;
+        flex-flow: wrap column;
+        align-content: center;
+    }
+    .box{
+        border: none;
+        width: 34rem;
+        height: 13rem;
+        color: white;
+        border-radius: 12px;
+        font-size:x-small;
+        padding-top: 15px;
+        margin: 18px;
+        transition: .2s linear ;
+    }
+    .text{
+        margin: 1.6rem .8rem;
+    }
+    .icon{
+        margin: 1.3rem 1.8rem;
+        
+    }
+    .hero{
+        background-image: url(./desert-17484621920jpg.jpg);
+        background-repeat:repeat-y;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        position: relative;
+    
+    }
+
+}
+@media screen and (max-width:640px) {
+    .main-body{
+        display: block;
+    }
+    .sahara{
+        width: 90%;
+        margin-top: 1%;
+        height: 100%;
+        margin-left: 8%;
+        margin-right: 10%;
+    }
+    .boxes{
+        display: flex;
+        flex-flow: wrap column;
+        align-content: center;
+    }
+    .box{
+        border: none;
+        width: 70%;
+        height: 13rem;
+        color: white;
+        border-radius: 12px;
+        font-size:x-small;
+        padding-top: 15px;
+        margin: 18px;
+        transition: .2s linear ;
+    }
+    .heading h1{
+        color: white;
+        font-size: 50PX;
+    }
+    .insahara p{
+        color: white;
+        margin: 10px 0;
+        margin-right: 5%;
+    }
+    .text{
+        margin: 5px .8rem;
+        text-align: end;
+    }
+    .inheader{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5PX;
+    }
+    .hero{
+        background-image: url(./desert-17484621920jpg.jpg);
+        background-repeat:repeat-y;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        position: relative;    
+    }
+
+}
